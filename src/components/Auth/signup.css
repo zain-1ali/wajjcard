@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.profile--container {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+}
+
+.header h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo--container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.logo--container img {
+    height: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.inputs--container {
+    width: 80%;
+}
+
+.button--container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.button--container button {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.register-to-loginLink {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    width: 78%;
+    margin-bottom: 30px;
+}
+
+.register-to-loginLink a {
+    text-decoration: none;
+}

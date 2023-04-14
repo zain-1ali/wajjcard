@@ -1,0 +1,100 @@
+.analytics-main {
+
+    min-height: 100vh;
+    max-width: 420px;
+    width: 100%;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.analytics-second-main {
+    width: 94%;
+
+}
+
+.total-views {
+    margin-top: 5px;
+    height: 150px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-views-inner {
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.total-views-text {
+
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.total-views-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    object-fit: cover;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link-network {
+    margin-top: 10px;
+
+    height: 150px;
+
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-engagement {
+    height: 80%;
+    width: 48%;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.my-network {
+    height: 80%;
+    width: 48%;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.analytics-all-social {
+
+    height: 54px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.analytics-single-social {
+    height: 80%;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

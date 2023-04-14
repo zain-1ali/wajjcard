@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+
+  position: fixed;
+  bottom: 0%;
+}
+
+.navigation--container {
+  width: 400px;
+  border-right: 1px solid rgb(219, 217, 217);
+  border-left: 1px solid rgb(219, 217, 217);
+  border-top: 1px solid rgb(219, 217, 217);
+}
+
+
+@media screen and (min-width: 406px) and (max-width: 415px) {
+  .navigation--container {
+    width: 415px;
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 430px) {
+  .navigation--container {
+    width: 428px;
+  }
+}

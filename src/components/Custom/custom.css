@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.addCustom-linkName-field{
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.addCustom-container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    bottom: 0%;
+}
+.addCustom-card--container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 390px;
+    min-height: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #FFFFFF;
+    z-index:3 !important;
+}
+.addCustom-header{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    color: #484848;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.addCustom-close--icon{
+    position: absolute;
+    right: 20px;
+    /* top: 20px; */
+}
+.image-icon-container{
+    position: relative;
+    /* height: 100px;
+    width: 80px; */
+    border-radius: 50%;
+}
+.icon-conatiner{
+    position: absolute;
+    bottom: 25px;
+    right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+.addCustom-card--container div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #1EAFEB;
+    margin-bottom: 30px;
+}
+.addCustom-input--container{
+    width: 70%;
+}
+.addCustom-save--open{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.addCustom-save--open div{
+    display: flex;
+    width: 48%;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .addCustom-card--container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width: 95vw;
+        min-height: 350px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background: #FFFFFF;
+        z-index:3 !important;
+    }
+}

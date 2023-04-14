@@ -1,0 +1,41 @@
+.ef-edit--data-box{
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    bottom: 0%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    min-height: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #FFFFFF;
+    z-index:3 !important;
+}
+.ef-input--row {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.ef-button--container{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.ef-button--container button{
+    background-color: #1EAFEB;
+    color: #FFFFFF;
+    width:70% ;
+    font-size: 0.9rem;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    
+}
+.ef-cross--icon--form{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
